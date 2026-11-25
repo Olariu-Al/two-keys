@@ -19,7 +19,7 @@ Two AI agents, each with its own [1Claw](https://1claw.co) identity, aimed at th
 
 ![npm run demo: the reader and writer are each allowed one operation, the revoked writer is refused, the reader still reads](docs/demo.png)
 
-A real run. The `undefined` in the audit trail was a timestamp bug in this capture, fixed since.
+Output of a real run.
 
 ## What the demo checks
 

@@ -1,0 +1,17 @@
+{
+  "name": "two-keys",
+  "version": "1.0.0",
+  "description": "Two AI agent identities, two 1Claw policies on one secret: revoke one and the other keeps working",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "setup": "tsx --env-file=.env scripts/setup.ts",
+    "demo": "tsx --env-file=.env src/demo.ts",
+    "test": "tsx --test test/*.test.ts",
+    "smoke": "ONECLAW_SMOKE=1 tsx --env-file=.env --test test/smoke.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "license": "MIT",
+  "dependencies": { "@1claw/sdk": "^0.63.6" },
+  "devDependencies": { "@types/node": "^26.6.10", "tsx": "^4.23.15", "typescript": "^7.0.2" }
+}
